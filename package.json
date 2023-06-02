@@ -1,0 +1,53 @@
+{
+  "name": "wp_customer_support",
+  "version": "1.0.0",
+  "description": "Customer Support System Management ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sabbirsam/WP_Customer_Support_using_REACT.git"
+  },
+  "author": "devsabbirahmed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sabbirsam/WP_Customer_Support_using_REACT/issues"
+  },
+  "homepage": "https://github.com/sabbirsam/WP_Customer_Support_using_REACT#readme",
+  "devDependencies": {
+    "@wordpress/scripts": "^24.4.0"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.10.9",
+    "@mui/material": "^5.10.11",
+    "@mui/x-data-grid": "^5.17.9",
+    "@tippy.js/react": "^3.1.1",
+    "axios": "^1.1.3",
+    "bcrypt": "^5.1.0",
+    "date-fns": "^2.29.3",
+    "firebase": "^9.16.0",
+    "format": "^0.2.2",
+    "moment": "^2.29.4",
+    "multer": "^1.4.5-lts.1",
+    "react-ace": "^10.1.0",
+    "react-circular-progressbar": "^2.1.0",
+    "react-countdown": "^2.3.5",
+    "react-dom": "^18.2.0",
+    "react-quill": "^2.0.0",
+    "react-router": "^6.4.2",
+    "react-router-dom": "^6.8.0",
+    "react-select": "^5.7.0",
+    "recharts": "^2.1.16",
+    "sass": "^1.55.0",
+    "styled-components": "^5.3.6",
+    "sweetalert2": "^11.6.5",
+    "timeago-react": "^3.0.5",
+    "uuid": "^9.0.0"
+  }
+}

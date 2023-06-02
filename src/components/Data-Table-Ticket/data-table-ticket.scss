@@ -1,0 +1,96 @@
+.wcs_datatable_staff{
+    height: 600px;
+    padding: 20px;
+    @media only screen and (max-width: 1366px){
+        height: 380px;
+    }
+
+    .wcs_cellWithImg{
+        display: flex;
+        align-items: center;
+
+        .wcs_cellImg{
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 20px;
+        }
+    }
+
+    .cellWithStatus{
+        padding: 5px;
+        border-radius: 5px;
+    }
+   //0 is Open
+    .cellWithStatus.id-0{
+        background-color: rgba(7, 166, 224, 0.745);
+        color: rgb(1, 13, 2);
+        width: 57px;
+        text-align: center;
+    }
+    //1 Pending
+    .cellWithStatus.id-1{
+        background-color: rgb(225 11 11 / 80%);
+        color: white;
+        width: 57px;
+        text-align: center;
+    }
+    //2 is resolved
+    .cellWithStatus.id-2{
+        background-color: rgb(199 194 192);
+        color: white;
+        width: 57px;
+        text-align: center;
+    }
+     //3 is Close
+     .cellWithStatus.id-3{
+        background-color: rgb(20 225 0 / 30%);
+        color: rgb(8 101 14);
+        width: 57px;
+        text-align: center;
+    }
+   
+
+    .wcs_cellAction{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        .action_reset{
+            width: 28px;
+            height: 15px;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        .wcs_viewButton{
+            padding: 2px 5px;
+            border-radius: 5px;
+            color: darkblue;
+            border: 1px dotted rgba(0,0,139, 0.596);
+            cursor: pointer;
+        }
+        .wcs_deleteButton{
+            padding: 2px 5px;
+            border-radius: 5px;
+            color: rgb(172, 3, 146);
+            border: 1px dotted rgba(125, 2, 55, 0.596);
+            cursor: pointer;
+        }
+    }
+}
+// Fix checkbox and outline 
+input.PrivateSwitchBase-input.css-1m9pwf3{
+    height: 3rem;
+    width: 3rem;
+    min-width: 3rem;
+}
+.css-1e2bxag-MuiDataGrid-root .MuiDataGrid-columnHeader:focus, .css-1e2bxag-MuiDataGrid-root .MuiDataGrid-cell:focus {
+    outline: none !important;
+}
+
+/* .MuiDataGrid-row:nth-child(odd) {
+    background: rgba(224, 224, 224, 1);
+} */
+
+//@media only screen and (max-width: 1366px)

@@ -1,0 +1,74 @@
+.caf_formContainer{
+    background-color: #a7bcff;
+    height: 100vh;
+    display: flex;
+    align-items: center; //take bottom left center
+    justify-content: center; //take middle
+
+    .caf_fromWrapper{
+        background-color: white;
+        padding: 20px 60px; //left+ right and top+ bottom
+
+        border-radius: 10px;
+        // now on logo and title 
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        // align 
+        align-items: center;
+
+        .caf_logo{
+            color: #5d5b8d;
+            font-weight: bold;
+            font-size: 24px;
+        }
+        .caf_title{
+            color: #5d5b8d;
+            font-size: 15px;
+        }
+
+        form{
+            display: flex;
+            flex-direction: column; // row wise to column wise view 
+            gap: 15px; // space between all fields
+
+            //Input filed design
+            input{
+                padding: 15px;
+                border: none;
+                width: 250px;
+                //bottom border
+                border-bottom: 1px solid #a7bcff;
+
+                &::placeholder{
+                    color: rgb(175,175,175);
+                }
+            }
+            button{
+                background-color: #7b96ec;
+                color: white;
+                padding: 10px;
+                font-weight: bold;
+                cursor: pointer;
+                border: none;
+            }
+            // file input 
+            label{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                color: #8da4f1;
+                font-size: 12px;
+                cursor: pointer;
+                img{
+                    width: 32px;
+                }
+            }
+        }
+        p{
+            color: #5d5b8d;
+            font-size: 12px;
+            margin-top: 10px;
+        }
+    }
+}
